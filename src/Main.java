@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int initialAmount = 100;   // переменная для начального счёта
-        int replenishmentAmount = 300;   // переменная для суммы пополнения
+        int replenishmentAmount = 1000;   // переменная для суммы пополнения
         int oneBonusCost = 100;   // переменная для суммы рублей для одного бонуса
 
         int bonus;   // переменная для количества бонусов
-        if (replenishmentAmount >= 1000) {
+        if (replenishmentAmount > 1000) {
             bonus = replenishmentAmount / oneBonusCost;
         } else {
             bonus = 0;
